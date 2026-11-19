@@ -1,20 +1,22 @@
-# PATH FINDING y TSP
+# PathFinder & TSP Search Algorithms
 
-Path Finding and TSP Solver with Python.
+A collection of Python scripts implementing classic graph/pathfinding search strategies and local search metaheuristics for pathfinding and Traveling Salesperson Problem (TSP) scenarios[cite: 22].
 
-# Algorithms
+## Project Structure
 
-- Deep First Search (DFS)
-- Breadth First Search (BFS)
-- Graph Breadth First Search (GBFS)
-- A Star (A*)
-- Uniform Cost Search (UCS)
-- Hill Climbing
-- Random Restart Hill Climbing
-- Tabu Search
+- `bfs.py` — Breadth-First Search implementation.
+- `dfs.py` — Depth-First Search implementation.
+- `ucs.py` — Uniform Cost Search implementation..
+- `gbfs.py` — Greedy Best-First Search implementation.
+- `astar.py` — A* search algorithm implementation.
+- `goright.py` — Directional/baseline movement script.
+- `hill-climbing-tabu.py` — Hill Climbing and Tabu Search local search implementation.
+- `PathFinderTSP/` — Supporting module/package directory.
 
-# Requerimientos
+## Usage
 
-- Python 3.10 o superior (https://www.python.org/downloads/)
-- tsplib95
-- matplotlib
+Run any individual algorithm script directly with Python 3:
+
+```bash
+python astar.py
+python hill-climbing-tabu.py
