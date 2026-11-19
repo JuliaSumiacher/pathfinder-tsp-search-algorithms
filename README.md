@@ -1,6 +1,6 @@
 # PathFinder & TSP Search Algorithms
 
-A collection of Python scripts implementing classic graph/pathfinding search strategies and local search metaheuristics for pathfinding and Traveling Salesperson Problem (TSP) scenarios[cite: 22].
+A collection of Python scripts implementing classic graph/pathfinding search strategies and local search metaheuristics for pathfinding and Traveling Salesperson Problem (TSP) scenarios.
 
 ## Project Structure
 
